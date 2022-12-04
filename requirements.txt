@@ -1,0 +1,9 @@
+bs4
+networkx
+ipykernel
+jupyter
+scikit-learn==0.24.1
+markupsafe==2.0
+pydot
+pydotplus
+graphviz

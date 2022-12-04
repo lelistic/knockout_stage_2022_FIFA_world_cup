@@ -19,18 +19,28 @@ Não fiz alterações no core do código de [1]. Apenas para captura dos dados d
 
 ## Instalar pacotes:
 pip install bs4
+
 pip install networkx
+
 pip install ipykernel jupyter
 
 pip install scikit-learn==0.24.1
+
 pip install markupsafe==2.0
 
 pip install pydot
+
 pip install pydotplus
+
 pip install graphviz
 
-Ubuntu 20.04:
-    sudo apt-get install graphviz
+Ou ainda através do requirements.txt
+
+- pip install -r requirements.txt
+
+
+*Ubuntu 20.04:*
+- sudo apt-get install graphviz
 
 
 ## OBSERVAÇÕES
