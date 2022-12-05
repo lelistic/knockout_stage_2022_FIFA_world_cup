@@ -7,3 +7,8 @@ markupsafe==2.0
 pydot
 pydotplus
 graphviz
+matplotlib
+pandas
+lxml
+certifi
+requests

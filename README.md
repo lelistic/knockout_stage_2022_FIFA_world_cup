@@ -64,6 +64,14 @@ https://scikit-learn.org/stable/model_persistence.html#security-maintainability-
         Successfully installed scikit-learn-0.24.1
         ```
 
+### SSL e wikipedia (on MacOS):
+- URLError: urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1091)
+
+    - https://stackoverflow.com/questions/50236117/scraping-ssl-certificate-verify-failed-error-for-http-en-wikipedia-org
+    - https://stackoverflow.com/questions/44649449/brew-installation-of-python-3-6-1-ssl-certificate-verify-failed-certificate/44649450#44649450
+    - https://github.com/python/cpython/blob/main/Mac/BuildScript/resources/install_certificates.command
+    - Executar: python install_certificates.py
+
 ## Execução:
 - Executar wc simulation updates.ipynb, que simula todas as fases da Copa do Mundo FIFA 2022.
 
